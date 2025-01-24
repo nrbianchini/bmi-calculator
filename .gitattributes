@@ -1,0 +1,15 @@
+# Handle line endings
+* text=auto
+
+# Explicitly define behavior for specific file types
+*.cc text
+*.h text
+*.swift text
+*.cmake text
+*.lock text
+
+# Treat binary files properly
+*.png binary
+*.jpg binary
+
+
